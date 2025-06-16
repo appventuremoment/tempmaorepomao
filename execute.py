@@ -8,9 +8,3 @@ mesh = pipeline(image='benormal.png')[0]
 mesh.export('benormal.obj')
 end_time = time.time()
 print(f"Time taken: {end_time - start_time} seconds")
-
-start_time = time.time()
-mesh = pipeline(image='what.png')[0]
-mesh.export('what.obj')
-end_time = time.time()
-print(f"Time taken: {end_time - start_time} seconds")
